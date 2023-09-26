@@ -24,14 +24,14 @@ Ensure you have the following installed before proceeding with Installation step
 To set up the project and run the code, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yernenip/CodeLlama-LangChain-MySql.git
+   - git clone https://github.com/yernenip/CodeLlama-LangChain-MySql.git
    
 2. Navigate to the folder and install the required dependencies:
-    pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 3. Build and run the docker container
-    docker build -t mysql-sakila .
-    docker run -d -p 3306:3306 --name mysql-sakiladb mysql-sakila
+    - docker build -t mysql-sakila .
+    - docker run -d -p 3306:3306 --name mysql-sakiladb mysql-sakila
 
 ## Usage (Jupyter Notebook)
 
