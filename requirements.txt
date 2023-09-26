@@ -1,0 +1,5 @@
+ctransformers
+langchain
+sqlalchemy
+sentence_transformers
+chromadb
