@@ -1,7 +1,7 @@
 # Leveraging Few-Shot Learning to Enhance SQL Queries with CodeLlama and LangChain
 
 ## Introduction
-This repository contains the code and resources for leveraging few-shot learning to enhance SQL queries using CodeLlama and LangChain. Few-shot learning is a technique in machine learning that involves training models to make accurate predictions or generate outputs based on a very small dataset.
+This repository contains the code and resources for leveraging few-shot learning to enhance SQL queries using CodeLlama and LangChain. Few-shot learning is a technique in machine learning that involves training models to make accurate predictions or generate outputs based on a very small dataset. However, in this case we are training the model to use "JOINS" instead of sub queries. Although the model works well and creates sub queries when it needs to create a SQL query that fetches data from 2 tables, it did not work well to create query where 3 or more tables were in use.
 
 ## Project Overview
 The goal of this project is to explore how few-shot learning can be applied to enhance SQL queries using CodeLlama, a machine learning framework, and LangChain, a natural language processing library. We aim to improve the efficiency and accuracy of SQL query writing by enabling users to input a few examples and have the system generate the corresponding SQL queries.
